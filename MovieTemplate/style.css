@@ -1,0 +1,76 @@
+.bg-img {
+  background: url('img/slider/bg1.png') no-repeat center/cover;
+}
+.card {
+  border: none;
+  background-color: transparent;
+   color: white;
+}
+.card-img-top {
+  border-radius: 100% / 10%;
+  box-shadow: 0 0 20px 0 rgb(0 0 0  / 50%);
+}
+
+.card-img-top:hover
+{
+   transform: scale(1.1);
+   transition: 1s;
+   transition-timing-function: ease-in-out;
+}
+.a2  {
+  background: url('img/slider/bg2.png') no-repeat center/cover;
+}
+
+.nav--tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(60, 60, 60, 0.308);
+  padding: 10px 20px 20px;
+  border-radius: 16px;
+  width: 100%;
+}
+.nav-item a {
+  color: white;
+  font-size: 18px;
+}
+.nav-item a:hover{
+  transform: scale(1.1);
+  color: white;
+}
+
+.category a {
+  color: white;
+  text-decoration: none;
+}
+.category i {
+  font-size: 25px;
+}
+
+
+
+
+.input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+
+.lg-buton {
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid lightblue;
+  border-radius: 10% / 100%;
+  cursor: pointer;
+}
+
+.transition button:hover{
+  transform: scale(1.1);
+  background-color: transparent;
+  border: 2px solid lightblue;
+  color: white;
+}
